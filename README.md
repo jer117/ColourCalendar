@@ -13,7 +13,7 @@ A simple interactive calendar where you can colour days by category (Work, China
    From the project folder, start a small server so the file is served correctly (recommended if you see any loading issues):
 
    ```bash
-   cd /Users/jeremiahosullivan/Development/ColourCalendar
+   cd /**path**/ColourCalendar
    npx --yes serve .
    ```
 
@@ -21,20 +21,11 @@ A simple interactive calendar where you can colour days by category (Work, China
 
    To stop the server: press `Ctrl+C` in the terminal.
 
-### Option 2: Use the React component in your own app
-
-`ColourCalendar.html` is a React component (JSX). To use it in a React app (e.g. Vite):
-
-1. Copy the component into your app (e.g. `src/components/ColorCalendar.jsx`).
-2. Install dependencies: `react`, `lucide-react`, and Tailwind CSS.
-3. Import and render `<ColorCalendar />` in your app.
-
 ## Files
 
 | File | Description |
 |------|-------------|
 | `index.html` | Standalone version you can open or serve in a browser. |
-| `ColourCalendar.html` | React component source (for use in a React project). |
 
 ## Features
 
